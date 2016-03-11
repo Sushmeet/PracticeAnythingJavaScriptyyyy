@@ -10,7 +10,7 @@ function bubbleSort(arr) {
     var isSorted = true;
     for (var k = 1; k < (arr.length) & isSorted; k++) {
          isSorted = false;
-        for (var i = 0; i < arr.length; i++) {
+        for (var i = 0; i < arr.length -k ; i++) {
             if (arr[i] > arr[i + 1]) {
                 temp = arr[i + 1];
                 arr[i + 1] = arr[i];
