@@ -35,3 +35,18 @@ list3 = [1,2,3,4,5,6];
 bubbleSort(list);
 bubbleSort(list2);
 bubbleSort(list3);
+
+
+/* Output
+
+ [-2, 1, 2, 2, 3, 3, 5, 6, 12, 14 ]
+ outerForLoop 7
+ innerForLoop 70
+ [ 1, 2, 4, 5, 8, 9 ]
+ outerForLoop 5
+ innerForLoop 30
+ [ 1, 2, 3, 4, 5, 6 ]
+ outerForLoop 1
+ innerForLoop 6
+
+ */
